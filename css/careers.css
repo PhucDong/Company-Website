@@ -1,0 +1,74 @@
+.career-hero-img {
+    position: relative;
+    height: 400px;
+    background-image: url("../images/careers.jpeg");
+}
+
+/* Jobs */
+.jobs {
+    padding-top: 24px;
+    border-top: 1px solid #dddddd;
+}
+.jobs__nation {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #000000;
+    text-transform: uppercase;
+}
+ul.jobs__list {
+    margin-bottom: 0;
+}
+.jobs__col-pr {
+    padding-right: 8px;
+}
+ul.jobs__list > li {
+    margin-bottom: 24px;
+}
+ul.jobs__list > li > a {
+    color: #00adef;
+    font-size: 1rem;
+}
+
+/* Media queries */
+@media only screen and (min-width: 576px) {
+    .jobs {
+        padding-top: 32px;
+        padding-bottom: 8px;
+    }
+    .jobs__col-pr {
+        padding-right: 16px;
+    }
+    ul.jobs__list > li > a {
+        font-size: 1.1rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .jobs {
+        padding-top: 40px;
+        padding-bottom: 16px;
+    }
+    .jobs__nation {
+        font-size: 1.5rem;
+    }
+    .jobs__col-pr {
+        padding-right: 24px;
+    }
+    ul.jobs__list > li > a {
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .jobs {
+        padding-top: 48px;
+        padding-bottom: 24px;
+    }
+    .jobs__nation {
+        font-size: 1.6rem;
+    }
+    .jobs__col-pr {
+        padding-right: 32px;
+    }
+    ul.jobs__list > li > a {
+        font-size: 1.3rem;
+    }
+}

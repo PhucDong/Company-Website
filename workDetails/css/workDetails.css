@@ -1,0 +1,117 @@
+.work-hero-img {
+    position: relative;
+    height: 400px;
+}
+
+section.project-wright {
+    background-image: url("../images/projectWright.jpg");
+}
+section.frasers-web-revamp {
+    background-image: url("../images/frasers-web-revamp.jpg");
+}
+section.yolo-vpbank {
+    background-image: url("../images/yolo-vpbank.jpg");
+}
+section.permata-mobile {
+    background-image: url("../images/permata-mobile.jpg");
+}
+section.the1 {
+    background-image: url("../images/the1.jpg");
+}
+section.powerbuy {
+    background-image: url("../images/powerbuy.jpg");
+}
+section.garuda-booking-app {
+    background-image: url("../images/garuda-booking-app.jpg");
+}
+section.idea-money {
+    background-image: url("../images/idea-money.jpg");
+}
+section.xl-ecosystem {
+    background-image: url("../images/xl-ecosystem.jpg");
+}
+section.uob-mighty-app {
+    background-image: url("../images/uob-mighty-app.jpg");
+}
+section.singtel-tv {
+    background-image: url("../images/singtel-tv-go.jpg");
+}
+section.mastercard-nearby-app {
+    background-image: url("../images/mastercard-nearby-app.jpg"); 
+}
+section.pockets-icici {
+    background-image: url("../images/pockets-icici.jpg"); 
+}
+section.nivea-sunshine {
+    background-image: url("../images/nivea-sunshine.jpg"); 
+}
+section.soyumm-ngon {
+    background-image: url("../images/soyumm-ngon-sausage-snacks.jpg"); 
+}
+section.sp-mobility {
+    background-image: url("../images/sp-mobility.jpg"); 
+}
+section.vib-site {
+    background-image: url("../images/vib-public-website.jpg");
+}
+
+section.work-process {
+    padding: 32px 0;
+}
+section.border-top {
+    border-top: 1px solid #dddddd;
+}
+
+.work-process__extra {
+    margin-top: 32px;
+}
+.work-process__extra:nth-child(1) {
+    margin-top: 0;
+}
+.work-process__extra h4 {
+    margin-bottom: 4px;
+    color: #5e5e5e;
+    font-size: 1.2rem;
+    font-weight: 650;
+}
+section.work-details--pt {
+    padding-top: 48px;
+}
+
+
+/* Media queries */
+@media only screen and (min-width: 576px) {
+    .work-hero-img__category {
+        font-size: 0.8rem;
+    }
+    section.work-details--pt {
+        padding-top: 56px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .work-hero-img__category {
+        font-size: 1rem;
+    }
+    section.work-process {
+        padding: 48px 0;
+    }
+    section.work-details--pt {
+        padding-top: 64px;
+    }
+}
+@media only screen and (min-width: 992px) {
+    section.work-process {
+        padding: 56px 0;
+    }
+    section.work-details--pt {
+        padding-top: 72px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    section.work-process {
+        padding: 64px 0;
+    }
+    section.work-details--pt {
+        padding-top: 80px;
+    }
+}

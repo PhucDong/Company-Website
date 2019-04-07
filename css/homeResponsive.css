@@ -1,0 +1,209 @@
+@media only screen and (min-width: 576px) {
+    .home-hero-img__text {
+        width: 50%;
+    }
+    .home-hero-img__work-details {
+        width: 70%;
+    }
+    .home-hero-img__heading {
+        font-size: 2.8rem;
+    }
+    .misstion-statement__container > p,
+    .culture-intro__container > p {
+        font-size: 1.6rem;
+    }
+    .misstion-statement__links > a {
+        margin-right: 32px;
+    }
+    .misstion-statement__links > a > span,
+    .culture-intro__container > a > span {
+        font-size: 1rem;
+    }
+    .carousel {
+        height: 300px;
+    }
+    .carousel-caption > h2 {
+        font-size: 1.8rem;
+    }
+    .carousel-caption > p {
+        font-size: 0.8rem;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        width: 32px;
+        height: 32px;
+    }
+    .other-work__container > h2 {
+        font-size: 1.1rem;
+    }
+    .other-work__container > p {
+        font-size: 0.7rem;
+    }
+    .instagram__container > p {
+        padding: 0 16px;
+        font-size: 0.9rem;
+    }
+    .office__heading {
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .home-hero-img,
+    .work-hero-img,
+    .about-hero-img,
+    .career-hero-img {
+        height: 600px;
+    }
+    .home-hero-img__heading {
+        font-size: 3.6rem;
+    }
+    p.home-hero-img__description,
+    .home-hero-img__text > a.cta-link {
+        font-size: 1.2rem;
+    }
+    section.misstion-statement,
+    section.culture-intro,
+    section.our-story,
+    section.our-culture,
+    section.services,
+    section.contact-us {
+        padding: 56px 0;
+    }
+    .misstion-statement__container > p,
+    .culture-intro__container > p {
+        font-size: 1.8rem;
+    }
+    .misstion-statement__links > a {
+        margin-right: 40px;
+    }
+    .misstion-statement__links > a > span,
+    .culture-intro__container > a > span {
+        font-size: 1.2rem;
+    }
+    .carousel {
+        height: 400px;
+    }
+    .carousel-caption > h2 {
+        font-size: 2.3rem;
+    }
+    .carousel-caption > p {
+        font-size: 0.9rem;
+    }
+    .carousel-indicators > li {
+        width: 12px;
+        height: 12px;
+    }
+    .other-work__container > h2 {
+        padding: 0 40px;
+        font-size: 1.3rem;
+    }
+    .other-work__container > p {
+        font-size: 0.9rem;
+    }
+    .instagram__container > p {
+        font-size: 1.1rem;
+    }
+    .office__heading {
+        font-size: 2.2rem;
+    }
+}
+@media only screen and (min-width: 992px) {
+    section.misstion-statement,
+    section.culture-intro,
+    section.our-story,
+    section.our-culture,
+    section.services,
+    section.contact-us {
+        padding: 64px 0;
+    }
+    .misstion-statement__container > p,
+    .culture-intro__container > p {
+        font-size: 2rem;
+    }
+    .misstion-statement__links > a {
+        margin-right: 48px;
+    }
+    .misstion-statement__links > a > span,
+    .culture-intro__container > a > span {
+        font-size: 1.4rem;
+    }
+    .carousel {
+        height: 520px;
+    }
+    .carousel-caption > h2 {
+        font-size: 2.8rem;
+    }
+    .carousel-caption > p {
+        font-size: 1rem;
+    }
+    .carousel-indicators > li {
+        width: 14px;
+        height: 14px;
+    }
+    .other-work__container > h2 {
+        padding: 0 12px;
+        font-size: 1.2rem;
+    }
+    .office__heading {
+        font-size: 2.4rem;
+    }
+    .office__nation {
+        font-size: 1.1rem;
+    }
+    .office__row > div {
+        margin-bottom: 72px;
+    }
+    .office__row > div.office__no-margin {
+        margin-bottom: 0;
+    }
+    .office__row > div.office__col {
+        padding: 0 16px;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .home-hero-img,
+    .work-hero-img,
+    .about-hero-img,
+    .career-hero-img {
+        height: 640px;
+    }
+    .home-hero-img__heading {
+        font-size: 4.6rem;
+    }
+    p.home-hero-img__description {
+        font-size: 1.6rem;
+    }
+    .home-hero-img__text > a.cta-link {
+        font-size: 1.4rem;
+    }
+    section.misstion-statement,
+    section.culture-intro,
+    section.our-story,
+    section.our-culture,
+    section.services,
+    section.contact-us {
+        padding: 72px 0;
+    }
+    .misstion-statement__links > a {
+        margin-right: 64px;
+    }
+    .carousel {
+        height: 620px;
+    }
+    .carousel-caption > h2 {
+        font-size: 3.3rem;
+    }
+    .carousel-caption > p {
+        font-size: 1.1rem;
+    }
+    .other-work__container > h2 {
+        padding: 0 20px;
+        font-size: 1.4rem;
+    }
+    .office__heading {
+        font-size: 2.6rem;
+    }
+    .office__nation {
+        font-size: 1.2rem;
+    }
+}
