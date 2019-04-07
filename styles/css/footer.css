@@ -1,0 +1,95 @@
+footer {
+  padding: 48px 0;
+  background-color: #000000;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+div.footer__left-col {
+  margin-bottom: 16px;
+}
+
+div.footer__left-col p {
+  color: #7c7c7c;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+ul.footer__list-icons {
+  display: flex;
+  justify-content: center;
+}
+
+ul.footer__list-icons > li {
+  margin-right: 18px;
+}
+
+ul.footer__list-icons > li:last-child {
+  margin-right: 0;
+}
+
+ul.footer__list-icons > li > a {
+  color: #00adef;
+  font-size: 1.8rem;
+}
+
+ul.footer__list-icons a i:hover {
+  color: #fff;
+}
+
+p.footer__copyright {
+  color: #7c7c7c;
+  font-size: 1rem;
+  text-align: center;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+  .footer__container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  div.footer__left-col {
+    margin-bottom: 0;
+  }
+
+  div.footer__left-col p {
+    font-size: 1.5rem;
+    text-align: left;
+  }
+
+  ul.footer__list-icons {
+    justify-content: flex-end;
+  }
+
+  p.footer__copyright {
+    font-size: 0.9rem;
+    text-align: right;
+  }
+}
+@media only screen and (min-width: 992px) {
+  div.footer__left-col p {
+    font-size: 1.6rem;
+  }
+
+  ul.footer__list-icons > li > a {
+    font-size: 2.2rem;
+  }
+
+  p.footer__copyright {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  div.footer__left-col p {
+    font-size: 1.7rem;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

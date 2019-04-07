@@ -1,0 +1,66 @@
+@import "colorsFonts";
+
+header {
+    position: fixed;
+    width: 100%;
+    padding: 4px 0;
+    background-color: $primary-color;
+    z-index: 20;
+}
+nav.navbar {
+    padding: 0;
+}
+nav.navbar a.navbar-brand {
+    font-size: 1.8em;
+    font-weight: 550;
+}
+
+nav.navbar a {
+    padding: 0;
+    font-size: 1.2em;
+}
+.navbar-brand, .nav-link {
+    color: #fff;
+}
+ul.navbar-nav a.nav-link {
+    position: relative;
+    display: inline-block;
+}
+ul.navbar-nav li.nav-item {
+    padding: 4px 0;
+    text-align: center;
+}
+.navbar-brand:hover, .nav-link:hover,
+.active-link {
+    color: #ffc62a;   
+}
+button.navbar-toggler {
+    padding: 0;
+    outline: none;
+}
+.hamburger-menu-icon {
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Media queries */
+@media only screen and (min-width: 768px) {
+    header {
+        padding: 8px 0;
+    }
+    ul.navbar-nav li.nav-item {
+        margin-right: 16px;
+        padding: 0;
+    }
+    ul.navbar-nav li.nav-item:last-child {
+        margin-right: 0;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding: 0;
+    }
+}
+@media only screen and (min-width: 992px) {
+    ul.navbar-nav li.nav-item {
+        margin-right: 24px;
+    }
+}

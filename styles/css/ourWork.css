@@ -1,0 +1,42 @@
+section.our-clients {
+    padding-top: 72px;
+    padding-bottom: 40px;
+}
+.our-clients__container > h3.our-leaders__heading {
+    margin-bottom: 0;
+}
+.our-clients__row {
+    justify-content: space-between;
+}
+.our-clients__row > div {
+    padding: 32px 0;
+    width: 44%;
+    text-align: center;
+}
+.our-clients__row > div > img {
+    width: 70%;
+    vertical-align: middle;
+}
+
+/* Media queries */
+@media only screen and (min-width: 576px) {
+    .our-clients__row > div {
+        width: 26%;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .our-clients__row > div {
+        width: 22%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    .our-clients__row > div {
+        width: 18%;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    section.our-clients {
+        padding-top: 80px;
+        padding-bottom: 48px;
+    }
+}
