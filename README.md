@@ -21,5 +21,6 @@ npm install -g sass
 ```
 
 ### Keeping track of changes between styles/sass and styles/css
-```sass --watch sass:css
+```
+sass --watch sass:css
 ```
