@@ -16,7 +16,10 @@ I was motivated by the complexity of the website of [Aleph](http://aleph-labs.co
 ## Installation
 
 ### SASS
-`npm install -g sass`
+```
+npm install -g sass
+```
 
 ### Keeping track of changes between styles/sass and styles/css
-`sass --watch sass:css`
+```sass --watch sass:css
+```
